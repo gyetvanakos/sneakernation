@@ -1,0 +1,28 @@
+$colorz: ( 
+    primary: #333333,
+    secondary: #2B2B2B,
+    white:#ffffff,
+    oranges: #FC6D2B,
+    darkgrey: #707070,
+    complete:#2BFC83,
+    inprogress:#FFB936,
+    incomplete:#afaeae,
+    lightgrey:#cacaca,
+);
+
+h1{
+    color: white;
+}
+
+#navcart{
+    list-style-type: none;
+};
+
+
+
+@mixin infobox_mixin($boorder-radius, $border-color,$padding,$margin-bottom,$color) {
+    border: $boorder-radius $border-color;
+    padding: $padding;
+    margin-bottom: $margin-bottom;
+    color:$color;
+}
